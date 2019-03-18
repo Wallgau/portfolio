@@ -7,3 +7,6 @@ footer p{
 	margin:0;
 	color:yellow;
 }
+.fas{
+	z-index:9999;
+}
