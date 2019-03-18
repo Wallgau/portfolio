@@ -39,6 +39,9 @@ header h1{
 header p{	
 	font-size: 1.5rem;
 }
+.dev{
+	text-transform: uppercase;
+}
 header h1, header p{
 	text-shadow: 4px 4px black;
 }

@@ -1,0 +1,53 @@
+.eiffel-tower {
+	background-image:url('./images/eiffel-tower2.jpg');
+	background-size:cover;
+	background-position:center;
+	position:relative;
+	width: 100%;
+	grid-column:1/2;	
+	border-radius: 15px;
+	margin:0;
+	text-align:center;
+	overflow-y:hidden;
+	margin-top: 2rem;
+}
+.eiffel-tower:hover{
+	opacity: 1;
+}
+.formContect{
+	position:absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	transition:none;
+}
+#submitButton{
+	border-radius: 5px;
+	box-shadow: 2px 2px black;
+	color:yellow;
+	background-color:black;
+	text-transform: uppercase;
+	max-width: 5rem;
+	max-height: 10vh;
+	text-align:center;
+	margin: 0 auto;
+	margin-top: 3%;
+	padding:2%;
+
+}
+input {
+    padding-bottom: 1rem;
+    width: 100%;
+    padding-left: 1rem;
+		border-radius:15px;
+}
+input[name=name],
+input[name=email] {
+    border: none;  
+}
+.contactForm input#submitButton {
+    margin-bottom: 5%;
+}
+.submit{
+	display:none;
+}

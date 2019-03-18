@@ -2,8 +2,7 @@ import React, { Component } from 'react';
 import './header.css';
 import './global.css';
 import Nav from './Nav.js';
-import bublegame from './images/bubblegame.svg';
-import eiffeltower from './images/eiffel-tower2.jpg';
+import bubblegame from './images/bubblegame.svg';
 import trigame from './images/trigame1.jpg';
 import triviagame from './images/triviagame.svg';
 import babyname from './images/babyname.svg';
@@ -14,8 +13,8 @@ class Projects extends Component {
 	render() {
 		return (
 			<section className="projects">
-				<figure className="buble-game figure1">
-					<img src={bublegame} alt="my first game in javascript" />
+				<figure className="bubblegame figure1">
+					<img src={bubblegame} alt="my first game in javascript" />
 					<figcaption>
 						<h2>Bubble Game</h2>
 						<p>Are you fast enough!</p>
@@ -57,14 +56,12 @@ class Projects extends Component {
 				<figure className="figure6 beachhouse">
 					<img src={beachhouse} alt="" />
 					<figcaption>
-						<h2></h2>
-						<p></p>
-						<button></button>
+						<h2>Beach House</h2>
+						<p>You are looking for a Beach House</p>
+						<button>Beach</button>
 					</figcaption>
 				</figure>
-				<figure className="eiffel-tower figure7">
-					<img src={eiffeltower} alt="eiffel tower seen by bottom" />
-				</figure>
+
 			</section >
 		)
 	}

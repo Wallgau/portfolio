@@ -5,7 +5,7 @@ class Footer extends Component {
 	render() {
 		return (
 			<footer>
-
+				<p>&copy; CopyRight Olfa Maslah</p>
 			</footer>
 		)
 	}

@@ -11,9 +11,10 @@ class Header extends Component {
 				<Nav />
 
 				<h1>Olfa MASLAH</h1>
-				<p>Web Developper</p>
+				<p className="dev">Web Developper</p>
 				<div className="personal-image"></div>
 				{/* <p className="intro">Hi, I'am Olfa. I am french from Paris. I am exciting to show you my portfolio! </p> */}
+				<p>My React Portfolio</p>
 			</header>
 		)
 	}

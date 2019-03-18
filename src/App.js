@@ -3,6 +3,7 @@ import Header from './Header.js';
 import Projects from './Projects.js';
 import './App.css';
 import Footer from './Footer.js';
+import Form from './Form.js';
 
 class App extends Component {
   render() {
@@ -10,6 +11,7 @@ class App extends Component {
       <div>
         <Header />
         <Projects />
+        <Form />
         <Footer />
       </div>
     );
