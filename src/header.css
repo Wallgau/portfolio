@@ -1,23 +1,15 @@
-/* header ul{
-	list-style:none;
-	display:flex;	
-	justify-content:space-between;
-	padding:0 5%;
-	text-align:center;
-}
-/* header nav{
-	width: 40%;
-} */
 
-/* header a{
-	text-decoration: none;
-} */
-.bm-overlay{
-	display:none;
+.bm-cross-button{
+	background:yellow;
+	border-radius: 5px;
 	
 }
-button{
-	max-height: 10vh;
+.bm-menu{
+	padding-right: 5%;
+}
+.bm-burger-menu span button{
+	width: 100%;
+	background:red;
 }
 .fa-bars{
 	padding-top: 5%;
@@ -27,7 +19,8 @@ button{
 }
 .bm-item-list{
 	position:absolute;
-	top: 7%;
+	top: 2%;
+	
 
 }
 header{
@@ -40,8 +33,10 @@ header{
 	position:relative;
 	max-width: 100%;
 }
-header p{
-	
+header h1{
+	padding-top: 20%;
+}
+header p{	
 	font-size: 1.5rem;
 }
 header h1, header p{

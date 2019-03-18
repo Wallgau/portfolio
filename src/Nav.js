@@ -7,27 +7,44 @@ class Nav extends Component {
 	constructor() {
 		super();
 		this.state = {
-			class: ''
+			clicked: false
 		}
 	}
 
-	showSettings(event) {
-		event.preventDefault();
-		console.log('exercice')
+
+	handleChange = () => {
+		this.setState({
+			clicked: true
+		})
 	}
+
+	hideButton() {
+		if (this.state.clicked === true) {
+			return (<div onClick={() => this.handleChange}>
+				<i className="fas fa-times"></i>
+			</ div>
+			)
+		} else if (this.state.clicked === false) {
+			return (
+				<div>
+					<i className="fas fa-bars"></i>
+				</div>
+			)
+		}
+	}
+
 
 	render() {
 		return (
 
-			<div class="wrapper">
-				<Menu class="menu">
+			<div className="wrapper">
+				<Menu className="menu">
 					<a id="home" className="menu-item" href="/">Home</a>
 					<a id="about" className="menu-item" href="/about">About</a>
 					<a id="contact" className="menu-item" href="/contact">Contact</a>
 				</Menu>
-				<i class="fas fa-bars" onClick={this.showSettings}></i>
 			</div>
-		);
+		)
 	}
 }
 
