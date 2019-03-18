@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './header.css';
 import './global.css';
+import './setup.css';
 import Nav from './Nav.js';
 
 
@@ -9,7 +10,6 @@ class Header extends Component {
 		return (
 			<header>
 				<Nav />
-
 				<h1>Olfa MASLAH</h1>
 				<p className="dev">Web Developper</p>
 				<div className="personal-image"></div>

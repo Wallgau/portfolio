@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './header.css';
 import './global.css';
+import './setup.css';
 import Nav from './Nav.js';
 import bubblegame from './images/bubblegame.svg';
 import trigame from './images/trigame1.jpg';
@@ -13,7 +14,7 @@ class Projects extends Component {
 	render() {
 		return (
 			<section className="projects">
-				<figure className="bubblegame figure1">
+				<figure className="bubblegame figure1 figure">
 					<img src={bubblegame} alt="my first game in javascript" />
 					<figcaption>
 						<h2>Bubble Game</h2>
@@ -21,7 +22,7 @@ class Projects extends Component {
 						<button>Play</button>
 					</figcaption>
 				</figure>
-				<figure className="figure2 trigame">
+				<figure className="figure2 trigame figure">
 					<img src={trigame} alt="memory game" />
 					<figcaption>
 						<h2>TrigoGame</h2>
@@ -29,7 +30,7 @@ class Projects extends Component {
 						<button>Play</button>
 					</figcaption >
 				</figure >
-				<figure className="figure3 triviagame">
+				<figure className="figure3 triviagame figure">
 					<img src={triviagame} alt="game about computer and game knowledge" />
 					<figcaption>
 						<h2>Trivia Game</h2>
@@ -37,7 +38,7 @@ class Projects extends Component {
 						<button>Play</button>
 					</figcaption>
 				</figure>
-				<figure className="figure4">
+				<figure className="figure4 babygame figure">
 					<img src={babyname} alt="Get baby Name by gender or check if your name is traditional, original ou timeless" />
 					<figcaption>
 						<h2>Baby Name</h2>
@@ -45,7 +46,7 @@ class Projects extends Component {
 						<button>Test it</button>
 					</figcaption>
 				</figure>
-				<figure className="figure5 boxoffice">
+				<figure className="figure5 boxoffice figure">
 					<img src={boxoffice} alt="predict which movies will be in the top10 of the summer" />
 					<figcaption>
 						<h2>Box Office Boffo</h2>
@@ -53,7 +54,7 @@ class Projects extends Component {
 						<button>Predict</button>
 					</figcaption>
 				</figure>
-				<figure className="figure6 beachhouse">
+				<figure className="figure6 beachhouse figure">
 					<img src={beachhouse} alt="" />
 					<figcaption>
 						<h2>Beach House</h2>

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './global.css';
+import './setup.css';
 
 class About extends Component {
 	constructor() {

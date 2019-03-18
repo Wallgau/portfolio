@@ -22,8 +22,8 @@
 	transition:none;
 }
 #submitButton{
-	border-radius: 5px;
-	box-shadow: 2px 2px black;
+	border-radius: 15px;
+	box-shadow: 5px 5px black;
 	color:yellow;
 	background-color:black;
 	text-transform: uppercase;
@@ -50,4 +50,8 @@ input[name=email] {
 }
 .submit{
 	display:none;
+}
+#comment{
+	padding-bottom: 5rem;
+	
 }
