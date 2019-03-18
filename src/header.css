@@ -48,12 +48,12 @@ header h1, header p{
 	position:absolute;
 	left: -100%;
 	transition: all 0.8s ease-in-out;
+	background:#262626;
 }
 
 .show{
 	text-align:center;
 	left: 0.5rem;
-	background:#262626;
 	padding: 2% 0;
 	border-radius: 15px;
 	width: 5rem;
