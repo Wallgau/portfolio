@@ -1,49 +1,66 @@
+
 import React, { Component } from 'react';
 import './header.css';
 import './global.css';
-
 
 class Nav extends Component {
 	constructor() {
 		super();
 		this.state = {
 			clicked: false,
-
 		}
 	}
 
-	componentDidMount() {
-		/* this.handleChange(); */
-	}
 	togglenav = () => {
-		/* 	this.props.onClick(); */
 		this.setState({
 			clicked: !this.state.clicked,
-
 		})
 	}
 
-
-
 	render() {
+		const navItems = [
+			{
+				id: 'home',
+				link: '/',
+				text: 'Home',
+			},
+			{
+				id: 'about',
+				link: '/about',
+				text: 'About',
+			},
+			{
+				id: 'projects',
+				link: '/projects',
+				text: 'Projects',
+			},
+			{
+				id: 'contact',
+				link: '/contact',
+				text: 'Contact',
+			},
+		];
+
+		const iconName = this.state.clicked ? 'fas fa-times' : 'fas fa-bars';
+		const navClass = this.state.clicked ? 'menu show' : 'menu';
+
 		return (
-
 			<div className="wrapper">
-				{this.state.clicked ? <div>
-					<i className="fas fa-times" onClick={this.togglenav}></i>
-				</div> : <div>
-						<i className="fas fa-bars" onClick={this.togglenav}></i>
-					</div>}
-				<nav className={this.state.clicked ? "menu show" : "menu"}>
-					<a id="home" className="menu-item" href="/">Home</a>
-					<a id="about" className="menu-item" href="/about">About</a>
-					<a id="contact" className="menu-item" href="/contact">Contact</a>
+				<div>
+					<i className={iconName} onClick={this.togglenav}></i>
+				</div>
+				<nav className={navClass}>
+					{navItems.map(({ id, link, text }) => (
+						<a id={id} className="menu-item" href={link}>{text}</a>
+					))}
 				</nav>
-
-
 			</div>
 		)
 	}
 }
 
 export default Nav;
+
+
+
+
