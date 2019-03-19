@@ -19,11 +19,7 @@ class Nav extends Component {
 
 	render() {
 		const navItems = [
-			{
-				id: 'home',
-				link: '/',
-				text: 'Home',
-			},
+
 			{
 				id: 'about',
 				link: '/about',

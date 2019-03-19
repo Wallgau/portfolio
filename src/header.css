@@ -58,6 +58,14 @@ header h1, header p{
 	border-radius: 15px;
 	width: 5rem;
 }
+.logo{
+	height: 4rem;
+	width: 4rem;
+	background: url('./images/OM.png');
+	background-size:cover;
+	background-position:center;
+	margin: 2rem auto;
+}
 
 
 

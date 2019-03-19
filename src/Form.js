@@ -8,6 +8,7 @@ class Form extends Component {
 	render() {
 		return (
 			<section className="eiffel-tower">
+				<h2 className="part-title">Contact</h2>
 				<div className="formContact">
 					<form action="submit" class="contactForm">
 						<div class="topForm wrapper">
