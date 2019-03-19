@@ -10,7 +10,7 @@ class Projects extends Component {
 	render() {
 		return (
 			<section className="wrapper project-part" id="project">
-				<h2 className="part-title">Projects</h2>
+				<h2 className="part-title">Portfolio</h2>
 				<div className="projects">
 					{projectsData.map((project, index) => {
 						const { name, imgSrc, header, sentence, buttonText, description, buttonLink } = project
