@@ -27,7 +27,7 @@ button{
 	background-color:black;
 	text-transform: uppercase;
 	margin:0 auto;
-	width: 15vh;
+	width: 7rem;
 	max-height: 10vh;
 }
 figure:active figcaption, figure:focus figcaption, figure:hover figcaption {
@@ -114,8 +114,11 @@ nav a{
 	text-align:center;
 	font-size:1.5rem;
 	text-transform:uppercase;
+	margin-bottom:0;
+	margin-top: 5%;
 }
 .about p{
+	margin-top:0;
 	line-height: 1.6;
 	font-size: 1.5rem;
 	padding: 5%;
@@ -125,7 +128,7 @@ nav a{
 		padding-top: 15%;
 	}
 	figure {
-		width: 80%;
+		width: 70%;
 		border-radius: 15px;
 	}
 	.figure{
@@ -142,11 +145,15 @@ nav a{
 	.menu{
 		flex-direction:row;
 		background:#262626;
-		left: 5rem;
+		left: 1rem;
 		justify-content: space-around;
+		width: 40%;
+		padding: 1%;
+		border:2px solid yellow;
+		border-radius: 15px;
 	}
 	header h1{
-		padding-top: 10%;
+		padding-top: 13%;
 	}
 	.projects{
 		grid-template-rows: 60vh 60vh 60vh 60vh 60vh 60vh;
@@ -160,9 +167,8 @@ nav a{
 	.fas{
 		display:none;
 	}
-	.show{
-	left: 4.5rem;
-	border: 2px solid yellow;
-	width: 30%;
+	
+	button{
+		width: 10rem;
 	}
 }
