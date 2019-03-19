@@ -3,12 +3,12 @@ import './header.css';
 import './global.css';
 import './setup.css';
 import Nav from './Nav.js';
-import bubblegame from './images/bubblegame.svg';
+import bubblegame from './images/bubblegame.jpg';
 import trigame from './images/trigame1.jpg';
-import triviagame from './images/triviagame.svg';
-import babyname from './images/babyname.svg';
-import boxoffice from './images/boxoofice.svg';
-import beachhouse from './images/beachhouse.svg';
+import triviagame from './images/triviagame.jpg';
+import babyname from './images/babyname.jpg';
+import boxoffice from './images/boxoffice.jpg';
+import beachhouse from './images/beachouse.jpg';
 
 class Projects extends Component {
 	render() {
