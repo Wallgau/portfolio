@@ -10,7 +10,7 @@
 
 header{
 	background-image: url('images/triumphal-arch.jpg');
-	height: 75vh;
+	min-height: 60vh;
 	background-size:cover;
 	background-position: center;
 	color:#fedc3d;
