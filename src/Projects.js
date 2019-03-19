@@ -3,7 +3,7 @@ import './header.css';
 import './global.css';
 import './setup.css';
 import Nav from './Nav.js';
-import projectsData from './projectsdata';
+import projectsData from './ProjectsData';
 
 
 class Projects extends Component {

@@ -24,7 +24,7 @@
 #submitButton{
 	border-radius: 15px;
 	box-shadow: 5px 5px black;
-	color:yellow;
+	color:#fedc3d;
 	background-color:black;
 	text-transform: uppercase;
 	max-width: 5rem;

@@ -23,7 +23,7 @@ figcaption{
 button{
 	border-radius: 10px;
 	box-shadow: 2px 2px black;
-	color:yellow;
+	color:#fedc3d;
 	background-color:black;
 	text-transform: uppercase;
 	margin:0 auto;
@@ -88,7 +88,7 @@ figure img{
 
 nav a{
 	text-decoration:none;
-	color:yellow;
+	color:#fedc3d;
 }
 
 .triviagame{
@@ -149,7 +149,7 @@ nav a{
 		justify-content: space-around;
 		width: 40%;
 		padding: 1%;
-		border:2px solid yellow;
+		border:2px solid #fedc3d;
 		border-radius: 15px;
 	}
 	header h1{
@@ -171,4 +171,20 @@ nav a{
 	button{
 		width: 10rem;
 	}
+}
+@media screen and (min-width: 800px){
+	.projects{
+		grid-template-rows: 50vh 50vh 70vh ;
+		grid-template-columns: 1fr 1fr;
+	}
+	figure{
+		width: 100%;
+	}
+	.figure1, .figure3, .figure5{
+		grid-column: 2/3;
+	}
+	.figure2, .figure4, .figure6{
+		grid-column: 1/2;
+	}
+
 }
