@@ -21,18 +21,18 @@ class Nav extends Component {
 		const navItems = [
 
 			{
-				id: 'about',
-				link: '/about',
+				id: 'About',
+				link: '#about',
 				text: 'About',
 			},
 			{
 				id: 'projects',
-				link: '/projects',
+				link: '#project',
 				text: 'Projects',
 			},
 			{
-				id: 'contact',
-				link: '/contact',
+				id: 'Contact',
+				link: '#contact',
 				text: 'Contact',
 			},
 		];

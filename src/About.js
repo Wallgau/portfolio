@@ -3,7 +3,7 @@ import './global.css';
 import './setup.css';
 const About = () => (
 	<section className="about">
-		<div className="wrapper about-me">
+		<div className="wrapper about-me" id="about">
 			<h2>About me</h2>
 			<p>I am a junior Web Developper who have a particular love for JS and React,
 					it's the reason why I build this website with React.js.

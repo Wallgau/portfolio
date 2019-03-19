@@ -9,11 +9,11 @@ import projectsData from './ProjectsData';
 class Projects extends Component {
 	render() {
 		return (
-			<section className="wrapper project-part">
+			<section className="wrapper project-part" id="project">
 				<h2 className="part-title">Projects</h2>
 				<div className="projects">
 					{projectsData.map((project, index) => {
-						const { name, imgSrc, header, sentence, buttonText, description } = project
+						const { name, imgSrc, header, sentence, buttonText, description, buttonLink } = project
 						return (
 							<div className="one-project">
 								<h2 className="name">{name}</h2>
@@ -23,11 +23,12 @@ class Projects extends Component {
 										<figcaption className="figcaption">
 											<h2>{header}</h2>
 											<p>{sentence}</p>
-											<button>{buttonText}</button>
+											<a href={buttonLink}><button>{buttonText}</button></a>
 										</figcaption>
 									</figure>
 									<div className={`description more description${index + 1}`}>
 										<p>{description}</p>
+										<a href={buttonLink}><button>{buttonText}</button></a>
 									</div>
 								</div>
 							</div>

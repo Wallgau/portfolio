@@ -7,10 +7,10 @@ class Form extends Component {
 	}
 	render() {
 		return (
-			<section className="eiffel-tower">
-				<h2 className="part-title">Contact</h2>
+			<section className="eiffel-tower" >
+				<h2 className="part-title" id="contact">Contact</h2>
 				<div className="formContact">
-					<form action="submit" class="contactForm">
+					<form action="mailto:maslah.olfa@gmail.com" class="contactForm">
 						<div class="topForm wrapper">
 							<label for="name" class="visuallyhidden">Name</label>
 							<input type="text" name="name" id="name" placeholder="Name"></input>
