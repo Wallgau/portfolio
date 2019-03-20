@@ -67,7 +67,7 @@ const projectsData = [
 		sentence: 'You are looking for a Beach House',
 		buttonLink: 'https://wallgau.github.io/olfaMaslahBootCampProject2/',
 		buttonText: 'Beach',
-		description: 'This site is built with HTML and CSS using Sass, a beautiful multi-page site designed by Fatima Gueye.'
+		description: 'This site is built with HTML and CSS using Sass, a beautiful multi-page site designed by Fatima Gueye, who is an amazing artist and designer!.'
 
 	},
 ]
