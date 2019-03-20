@@ -228,6 +228,9 @@ nav a{
 	button{
 		width: 10rem;
 	}
+	.footer{
+		flex-direction: row;	
+	}
 }
 @media screen and (min-width: 800px){
 	.wrapper{
