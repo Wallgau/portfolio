@@ -14,7 +14,7 @@ const projectsData = [
 		sentence: 'Are you fast enough!',
 		buttonLink: 'https://wallgau.github.io/project_js/',
 		buttonText: 'Play',
-		description: 'Try to turn yellow to blue as fast as possible. This game is build in JS, A decount of 20sec allows the users to change color of balls (by changing class) and turn a blue one to yellow randomly,more fast you are more your score will be high but be careful each time you click on the wrong ball you lost 1point. Be fast and focus'
+		description: 'This game is built in JS. Try to turn the yellow balls to blue as fast as possible. Users have 20 seconds to change all the yellow balls to blue. The faster you are, the higher your score will be. But be careful, each time you click on the wrong ball, you lose one point. Be fast and focus!'
 	},
 	{
 		name: 'trigame',
