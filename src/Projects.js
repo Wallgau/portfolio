@@ -15,7 +15,7 @@ class Projects extends Component {
 					{projectsData.map((project, index) => {
 						const { name, imgSrc, header, sentence, buttonText, description, buttonLink } = project
 						return (
-							<div className="one-project">
+							<div className="one-project" >
 								<h2 className="name">{name}</h2>
 								<div className={`full-screenProject projet${index + 1} `}>
 									<figure className={`${name} figure${index + 1} figure`}>

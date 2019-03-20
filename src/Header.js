@@ -8,7 +8,7 @@ const Header = () => (
 	<header>
 		<Nav />
 		<h1>Olfa MASLAH</h1>
-		<p className="dev">Web Developper</p>
+		<p className="dev">Web Developer</p>
 		<div className="personal-image"></div>
 		<div className="logo"></div>
 		{/* <p className="intro">Hi, I'am Olfa. I am french from Paris. I am exciting to show you my portfolio! </p> */}

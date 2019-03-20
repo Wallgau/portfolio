@@ -6,7 +6,6 @@
 	width: 100%;
 	grid-column:1/2;	
 	border-radius: 15px;
-	margin:0;
 	text-align:center;
 	overflow-y:hidden;
 	margin-top: 2rem;
@@ -47,6 +46,7 @@ input[name=email] {
 }
 .contactForm input#submitButton {
     margin-bottom: 5%;
+		
 }
 .submit{
 	display:none;
