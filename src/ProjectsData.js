@@ -4,6 +4,8 @@ import triviagame from './images/triviagame.jpg';
 import babyname from './images/babyname.jpg';
 import boxoffice from './images/boxoffice.jpg';
 import beachhouse from './images/beachouse.jpg';
+import Skills from './Skills';
+
 
 const projectsData = [
 	{

@@ -175,6 +175,20 @@ nav a{
 	border-radius: 15px;
 	margin-top: 2%;
 }
+.flexskills{
+	display:flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	color:#fedc3d;
+	text-align:center;
+}
+.skills{
+	font-size: 2rem;
+	padding: 2rem;
+}
+.skills i{
+	font-size: 4rem;
+}
 
 @media screen and (min-width: 480px){
 	header h1{

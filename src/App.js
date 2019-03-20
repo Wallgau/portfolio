@@ -6,6 +6,7 @@ import './setup.css';
 import Footer from './Footer.js';
 import Form from './Form.js';
 import About from './About.js';
+import Skills from './Skills.js';
 
 class App extends Component {
   render() {
@@ -13,6 +14,7 @@ class App extends Component {
       <div>
         <Header />
         <About />
+        <Skills />
         <Projects />
         <Form />
         <Footer />
