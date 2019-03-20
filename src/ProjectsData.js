@@ -34,7 +34,7 @@ const projectsData = [
 		sentence: 'Test your knowledge!',
 		buttonLink: ' https://markcortejosolfamaslah-cryptoteam.github.io/apiProject4TriviaFun/',
 		buttonText: 'Play',
-		description: 'This game is built with jQuery to test your knowledge of computers and maths. It uses an API to display questions randomly. Ten true or false questions will be asked, and you have a 50% chance to get the correct answer., At the end you get your score and you can play again. The next round will display different questions from the previous one.'
+		description: 'This game is built with jQuery to test your knowledge of computers and maths. It uses an API to display questions randomly. Ten true or false questions will be asked, and you have a 50% chance to get the correct answer., At the end you get your score and you can play again. The next round will display different questions from the previous one. co-worker: Mark Cortejos'
 
 	},
 	{
@@ -56,7 +56,7 @@ const projectsData = [
 		sentence: `Predict the summer's top 10`,
 		buttonLink: 'https://auth-test-d2fa2.firebaseapp.com/',
 		buttonText: 'Predict',
-		description: `The Box Office Boffo is a React app, using API and Firebase. Movies from the API are displayed on the page. You can create your list of the top 10 summers movies and compare your list to others. Firebase stores the lists and is used to display them on the page.`
+		description: `The Box Office Boffo is a React app, using API and Firebase. Movies from the API are displayed on the page. You can create your list of the top 10 summers movies and compare your list to others. Firebase stores the lists and is used to display them on the page. co-workers: Morgan Lockhart, Dennis Oba ans Nathan Lui`
 
 	},
 	{
