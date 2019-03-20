@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
 import './Form.css';
+import './global.css';
 
 class Form extends Component {
 	constructor() {
 		super();
 	}
+
 	render() {
 		return (
 			<section className="eiffel-tower wrapper">
